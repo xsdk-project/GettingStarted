@@ -12,7 +12,6 @@ open source High Performance Computing packages.  This document
 describes the various interoperability layers of the xSDK and how to
 install and use the xSDK.
 
-Contents:
 
 .. toctree::
    :maxdepth: 2
@@ -21,6 +20,9 @@ Contents:
 
 
 * `Installing the xSDK`_
+* :ref:`subpackages-label`
+* :ref:`externalpackages-label`  
+
 
 .. _Installing the xSDK: http://installxsdk.readthedocs.org/en/latest/README/index.html
 
