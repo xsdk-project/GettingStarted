@@ -2,7 +2,7 @@
 .. _subpackages-label:
 
 xSDK Packages
---------------------------
+==================
 
 This lists the xSDK packages with a short discription of each
 
