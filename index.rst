@@ -6,17 +6,18 @@
 xSDK Getting Started Guide
 ======================================================
 
+The Extreme Scale Software Development Kit (xSDK) is a meta-package
+providing a common system for installing and working with a variety of
+open source High Performance Computing packages.  This document
+describes the various interoperability layers of the xSDK and how to
+install and use the xSDK.
+
 Contents:
 
 .. toctree::
    :maxdepth: 2
 
 
-The Extreme Scale Software Development Kit (xSDK) is a meta-package
-providing a common system for installing and working with a variety of
-open source High Performance Computing packages.  This document
-describes the various interoperability layers of the xSDK and how to
-install and use the xSDK.
 
 
 * `Installing the xSDK`_
