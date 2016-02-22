@@ -14,7 +14,7 @@ install and use the xSDK.
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
 
 
