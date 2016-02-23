@@ -39,7 +39,9 @@ install and use the xSDK.
 .. _xSDK package compliance standards: https://docs.google.com/document/d/1DCx2Duijb0COESCuxwEEK1j0BPe2cTIJ-AjtJxt3290/edit#heading=h.3hcywq83w3x0
 
 * :ref:`externalpackages-label`
-* :ref:`ideaspackages-label`    
+* :ref:`ideaspackages-label`
+
+* To contribute to this guide see https://github.com/xsdk-project/GettingStarted/wiki
 
 Indices and tables
 ==================
