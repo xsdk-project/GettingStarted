@@ -21,3 +21,7 @@ This lists the open source HPC packages included with xSDK
   + parmetis
 
   + Add --download-ptscotch to include the parallel Scotch graph partitioner
+  
+* The Boost_ C++ libraries
+
+.. _Boost: http://www.boost.org
