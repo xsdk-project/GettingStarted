@@ -3,6 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. toctree::
+   :maxdepth: 3
+	      
+	      
 xSDK Getting Started Guide
 ======================================================
 
@@ -13,24 +17,33 @@ describes the various interoperability layers of the xSDK and how to
 install and use the xSDK.
 
 
-.. toctree::
-   :maxdepth: 3
+
 
 
 
 
 * `Installing the xSDK`_
 * :ref:`subpackages-label`
-* :ref:`externalpackages-label`  
-
+* Getting Started Guides
+  
+  + hypre  
+  + `Getting Started with PETSc`_
+  +  Getting Started with SuperLU_Dist
+  +  Getting Started with Trilinos  
 
 .. _Installing the xSDK: http://installxsdk.readthedocs.org/en/latest/README/index.html
+.. _Getting Started with PETSc: http://www.mcs.anl.gov/petsc/petsc-dev/tutorials/HandsOnExercise.html
 
+* `xSDK package compliance standards`_
+
+.. _xSDK package compliance standards: https://docs.google.com/document/d/1DCx2Duijb0COESCuxwEEK1j0BPe2cTIJ-AjtJxt3290/edit#heading=h.3hcywq83w3x0
+
+* :ref:`externalpackages-label`
+* :ref:`ideaspackages-label`    
 
 Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
 

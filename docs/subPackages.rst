@@ -1,7 +1,7 @@
-
+	      
 .. _subpackages-label:
 
-xSDK Packages
+xSDK Package Descriptions
 ==================
 
 This lists the xSDK packages with a short discription of each
@@ -35,6 +35,14 @@ describes rows, columns, and coefficients of a matrix. Here, instead, matrices a
 logically structured grids. These interfaces give application users a more natural means for describing their linear systems,
 and provide access to methods such as structured multigrid solvers, which can take advantage of the additional information beyond just the 
 Supports C and Fortran. Can be used with OpenMP.
+
+PFLOTRAN_
+---------------
+
+.. _PFLOTRAN: http://www.pflotran.org
+
+PFLOTRAN blah blah blah
+
 
 PETSc_
 ---------------

@@ -4,14 +4,20 @@
 Open source packages installed with xSDK Packages
 --------------------------
 
-This lists the open source HPC packages with a short discription of each
+This lists the open source HPC packages included with xSDK
 
-* hdf5
+* A parallel IO software stack
 
-*  netcdf
+  + hdf5
 
-* exodusii
+  + netcdf
 
-* metis
+  + exodusii
 
-* parmetis  
+* A graph partitioning stack
+
+  + metis
+
+  + parmetis
+
+  + Add --download-ptscotch to include the parallel Scotch graph partitioner
