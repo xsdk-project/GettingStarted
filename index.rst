@@ -42,9 +42,4 @@ install and use the xSDK.
 
 * To contribute to this guide: see https://github.com/xsdk-project/GettingStarted/wiki
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`
 
