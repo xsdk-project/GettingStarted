@@ -36,13 +36,6 @@ logically structured grids. These interfaces give application users a more natur
 and provide access to methods such as structured multigrid solvers, which can take advantage of the additional information beyond just the 
 Supports C and Fortran. Can be used with OpenMP.
 
-PFLOTRAN_
----------------
-
-.. _PFLOTRAN: http://www.pflotran.org
-
-PFLOTRAN blah blah blah
-
 
 PETSc_
 ---------------
