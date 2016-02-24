@@ -10,29 +10,28 @@
 xSDK Getting Started Guide
 ======================================================
 
-The Extreme-scale Scientific Software Development Kit (xSDK) is a meta-package
+The Extreme-Scale Scientific Software Development Kit 
+(xSDK_) is a meta-package
 providing a common system for installing and working with a variety of
 open-source High Performance Computing (HPC) packages.  This document
 describes the various interoperability layers of the xSDK and how to
 install and use the xSDK.
 
-
-
-
+.. _xSDK: http://www.ideas-productivity.org/xsdk-docs
 
 
 
 * `Installing the xSDK`_
 * :ref:`subpackages-label`
-* Getting Started Guides
+* Getting started guides
   
-  + hypre  
-  + `Getting Started with PETSc`_
-  +  Getting Started with SuperLU_Dist
-  +  Getting Started with Trilinos  
+  +  Getting started with hypre  
+  + `Getting started with PETSc`_
+  +  Getting started with SuperLU_Dist
+  +  Getting started with Trilinos  
 
 .. _Installing the xSDK: http://installxsdk.readthedocs.org/en/latest/README/index.html
-.. _Getting Started with PETSc: http://www.mcs.anl.gov/petsc/petsc-dev/tutorials/HandsOnExercise.html
+.. _Getting started with PETSc: http://www.mcs.anl.gov/petsc/petsc-dev/tutorials/HandsOnExercise.html
 
 * `xSDK package compliance standards`_
 
@@ -41,7 +40,7 @@ install and use the xSDK.
 * :ref:`externalpackages-label`
 * :ref:`ideaspackages-label`
 
-* To contribute to this guide see https://github.com/xsdk-project/GettingStarted/wiki
+* To contribute to this guide: see https://github.com/xsdk-project/GettingStarted/wiki
 
 Indices and tables
 ==================

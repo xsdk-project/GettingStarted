@@ -1,26 +1,30 @@
 
 .. _externalpackages-label:
 
-Open source packages installed with xSDK Packages
+Open source packages installed with xSDK packages
 --------------------------
 
-This lists the open source HPC packages included with xSDK
+The following open source HPC packages are by default installed with the xSDK.
 
 * A parallel IO software stack
 
-  + hdf5
+  + HDF5_
+  + NetCDF_
+  + exodusii_
 
-  + netcdf
-
-  + exodusii
+.. _HDF5: https://www.hdfgroup.org/HDF5
+.. _NetCDF: http://www.unidata.ucar.edu/software/netcdf
+.. _exodusii: https://github.com/gsjaardema/seacas
 
 * A graph partitioning stack
 
-  + metis
+  + METIS_
+  + ParMETIS_
+  + Add --download-ptscotch to include the parallel Scotch_ graph partitioner
 
-  + parmetis
-
-  + Add --download-ptscotch to include the parallel Scotch graph partitioner
+.. _METIS: http://glaros.dtc.umn.edu/gkhome/metis/metis/overview
+.. _ParMETIS: http://glaros.dtc.umn.edu/gkhome/metis/parmetis/overview
+.. _Scotch: http://www.labri.fr/perso/pelegrin/scotch/
   
 * The Boost_ C++ libraries
 

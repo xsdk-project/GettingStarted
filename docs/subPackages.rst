@@ -1,18 +1,18 @@
 	      
 .. _subpackages-label:
 
-xSDK Package Descriptions
+xSDK package descriptions
 ==================
 
-This lists the xSDK packages with a short discription of each
+Below is a list of the xSDK packages with a short discription of each.
 
 Alquimia_
 -----------------
 
 .. _Alquimia: https://www.github.com/LBL-EESA/alquimia-dev
 
-Provides an API for providing mature geochemistry and biogeochemistry 
-capabilities to reactive transport codes. It is not a geochemistry solver--it is 
+Alquimia rovides an API for providing mature geochemistry and biogeochemistry 
+capabilities to reactive transport codes.   Alquimia is not a geochemistry solver; rather, it is 
 a library comprising data structures and interfaces that wrap chemistry solvers (called chemistry engines) 
 from well-established codes like PFlotran (http://www.pflotran.org) and 
 CrunchFlow (http://www.csteefel.com/CrunchFlowIntroduction.html), 
@@ -25,7 +25,7 @@ hypre_
 
 .. _hypre: https://computation.llnl.gov/project/linear_solvers/software.php
 
-Provides high performance preconditioners and solvers for the solution of large sparse
+Hypre provides high-performance preconditioners and solvers for the solution of large sparse
 linear systems on massively parallel computers. It was created with the primary goal of providing users with advanced parallel preconditioners.
 The library features parallel multigrid solvers for both structured and unstructured grid problems. 
 For ease of use, these solvers are accessed from the application code via hypre's conceptual linear system interfaces,
@@ -35,13 +35,6 @@ describes rows, columns, and coefficients of a matrix. Here, instead, matrices a
 logically structured grids. These interfaces give application users a more natural means for describing their linear systems,
 and provide access to methods such as structured multigrid solvers, which can take advantage of the additional information beyond just the 
 Supports C and Fortran. Can be used with OpenMP.
-
-PFLOTRAN_
----------------
-
-.. _PFLOTRAN: http://www.pflotran.org
-
-PFLOTRAN blah blah blah
 
 
 PETSc_
