@@ -23,23 +23,23 @@ install and use the xSDK.
 
 * `Installing the xSDK`_
 * :ref:`subpackages-label`
-* Getting started guides
+* Getting started guides: These emphasize xSDK package interoperability
   
-  +  Getting started with hypre  
+  +  Getting started with hypre
   + `Getting started with PETSc`_
   +  Getting started with SuperLU_Dist
-  +  Getting started with Trilinos  
-
-.. _Installing the xSDK: http://installxsdk.readthedocs.org/en/latest/README/index.html
-.. _Getting started with PETSc: http://www.mcs.anl.gov/petsc/petsc-dev/tutorials/HandsOnExercise.html
+  +  Getting started with Trilinos
 
 * `xSDK package compliance standards`_
+* :ref:`externalpackages-label`
+* :ref:`ideaspackages-label`
+* To contribute to this guide: see https://github.com/xsdk-project/GettingStarted/wiki
+
+.. _Installing the xSDK: http://installxsdk.readthedocs.org/en/latest/README/index.html
 
 .. _xSDK package compliance standards: https://docs.google.com/document/d/1DCx2Duijb0COESCuxwEEK1j0BPe2cTIJ-AjtJxt3290/edit#heading=h.3hcywq83w3x0
 
-* :ref:`externalpackages-label`
-* :ref:`ideaspackages-label`
-
-* To contribute to this guide: see https://github.com/xsdk-project/GettingStarted/wiki
-
-
+.. _Getting started with PETSc: http://www.mcs.anl.gov/petsc/petsc-dev/tutorials/HandsOnExercise.html
+.. _Getting started with hypre: [webpage goes here]
+.. _Getting started with SuperLU_Dist: [webpage goes here]
+.. _Getting started with Trilinos: [webpage goes here]

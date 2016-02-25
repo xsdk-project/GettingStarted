@@ -30,6 +30,8 @@ The following open source HPC packages are by default installed with the xSDK.
 
 .. _Boost: http://www.boost.org
 
+If Alquimia is installed, then the following package is also installed:
+
 * PFLOTRAN_ used by Alquimia as one of its chemistry engines
 
 .. _PFLOTRAN: http://www.pflotran.org 
