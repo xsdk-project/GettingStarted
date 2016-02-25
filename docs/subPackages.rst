@@ -11,11 +11,11 @@ Alquimia_
 
 .. _Alquimia: https://www.github.com/LBL-EESA/alquimia-dev
 
-Alquimia rovides an API for providing mature geochemistry and biogeochemistry 
+Alquimia provides an API for exposing mature geochemistry and biogeochemistry 
 capabilities to reactive transport codes.   Alquimia is not a geochemistry solver; rather, it is 
-a library comprising data structures and interfaces that wrap chemistry solvers (called chemistry engines) 
+a library comprising data structures and interfaces that wrap chemistry solvers 
 from well-established codes like PFlotran (http://www.pflotran.org) and 
-CrunchFlow (http://www.csteefel.com/CrunchFlowIntroduction.html), 
+CrunchFlow (http://www.csteefel.com/CrunchFlowIntroduction.html), thereby
 allowing developers of new codes to use these solvers with a single interface. 
 We refer to these chemistry solvers as chemistry engines.
 
@@ -25,7 +25,7 @@ hypre_
 
 .. _hypre: https://computation.llnl.gov/project/linear_solvers/software.php
 
-Hypre provides high-performance preconditioners and solvers for the solution of large sparse
+Hypre provides high-performance preconditioners and solvers for the solution of large, sparse
 linear systems on massively parallel computers. It was created with the primary goal of providing users with advanced parallel preconditioners.
 The library features parallel multigrid solvers for both structured and unstructured grid problems. 
 For ease of use, these solvers are accessed from the application code via hypre's conceptual linear system interfaces,
@@ -63,7 +63,7 @@ sparse, nonsymmetric systems of linear equations on high performance
 machines.  The library routines will perform an LU decomposition with
 partial pivoting and triangular system solves through forward and back
 substitution. The LU factorization routines can handle non-square
-matrices but the triangular solves are performed only for square
+matrices, but the triangular solves are performed only for square
 matrices. The matrix columns may be preordered (before factorization)
 either through library or user supplied routines. This preordering for
 sparsity is completely separate from the factorization. Working
@@ -76,7 +76,7 @@ There are three separate versions of this code: SuperLU (for sequential machines
 SuperLU_MT (for shared memory parallel machines with using OpenMP or Pthread), and
 SuperLU_DIST (for distributed memory machines using MPI).
 
-The library is written in C, with Fortran interface.  SuperLU_DIST supports MPI+X,
+The library is written in C, with a Fortran interface.  SuperLU_DIST supports MPI+X,
 where X can be CUDA, OpenMP, or both.
 
 Trilinos_
@@ -86,7 +86,7 @@ Trilinos_
 
 The Trilinos Project is an effort to develop algorithms and enabling
 technologies within an object-oriented software framework for the solution of
-large-scale, complex multi-physics engineering and scientific problems. Trilinos
+large-scale, complex multiphysics engineering and scientific problems. Trilinos
 is organized into 66 different packages, each with a specific focus.  These
 packages include linear and nonlinear solvers, preconditioners (including
 algebraic multigrid), graph partitioners, eigensolvers, and optimization
