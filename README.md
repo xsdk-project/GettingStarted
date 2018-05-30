@@ -1,4 +1,8 @@
-# GettingStarted
-Getting started guide for using the xSDK, introduces installer and interoperability
+- This repository is currently empty, but could be used to hold xSDK
+Getting Started information in the future.
 
-See the wiki for how you can contribute to the documentation
+- Previously in 2016, this repository held a draft outline of a Getting
+Started Guide for the 0.1.0 xSDK release.  See tag "v0.1.0".
+
+
+
